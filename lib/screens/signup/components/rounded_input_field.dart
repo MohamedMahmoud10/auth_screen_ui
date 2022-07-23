@@ -19,9 +19,9 @@ class RoundedInputField extends StatelessWidget {
     required this.textInputType,
   }) : super(key: key);
 
-  @override
-  Widget build(BuildContext context) {
-    return TextFieldCotainer(
+    @override
+    Widget build(BuildContext context) {
+      return TextFieldCotainer(
       child: TextField(
         keyboardType: textInputType,
         decoration: InputDecoration(
